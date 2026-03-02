@@ -1,5 +1,5 @@
 # app.py
-# VisionAssist - UML-aligned implementation (Class + Sequence Diagram names)
+# VisionAid - UML-aligned implementation (Class + Sequence Diagram names)
 # Pure RGB pipeline: YOLO uses PIL(RGB), color correction uses LMS, no HSV/BGR required.
 
 import hashlib
@@ -14,7 +14,7 @@ import streamlit as st
 from PIL import Image
 from ultralytics import YOLO
 
-APP_TITLE = "VisionAssist - YOLO + CVD Filter (Pure RGB, UML-Aligned)"
+APP_TITLE = "VISION AID: Color Perception Enhancement System for Color Blind Users"
 MODEL_PATH = "best.pt"
 ALLOWED_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 
@@ -246,7 +246,7 @@ class FeedbackModule:
         for d in detections:
             counts[d["class_name"]] = counts.get(d["class_name"], 0) + 1
         parts = [f"{v} {k}" for k, v in sorted(counts.items(), key=lambda x: (-x[1], x[0]))]
-        return "Detected " + ", ".join(parts) + "."
+        return "Detected Color: " + ", ".join(parts) + "."
 
 
 # =============================
