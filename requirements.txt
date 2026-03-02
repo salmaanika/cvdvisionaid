@@ -9,3 +9,4 @@ numpy
 ultralytics
 streamlit
 gTTS
+pandas
