@@ -1,2 +1,4 @@
-libglib2.0-0=2.66.8-1
+libglib2.0-0
 libgl1
+libffi-dev
+libpcres3
