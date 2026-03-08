@@ -1,5 +1,8 @@
+flask
+flask-cors
 uvicorn
 torch
+torchvision
 pillow
 opencv-python-headless
 python-multipart[optional]
@@ -8,5 +11,4 @@ ultralytics
 streamlit
 gTTS
 pandas
-torchvision
 streamlit-webrtc
