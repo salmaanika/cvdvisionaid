@@ -5,7 +5,7 @@ torch
 torchvision
 pillow
 opencv-python-headless
-python-multipart[optional]
+python-multipart
 numpy
 ultralytics
 streamlit
