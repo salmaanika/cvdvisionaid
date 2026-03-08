@@ -1,4 +1,5 @@
 libglib2.0-0
 libgl1
 libffi-dev
-libpcres3
+libpcre3
+libpcre2-dev
