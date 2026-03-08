@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
 
   // Put your deployed Streamlit URL here
   // For Android emulator local dev, often: http://10.0.2.2:8501
-  final String streamlitUrl = "https://YOUR-STREAMLIT-APP-URL";
+  final String streamlitUrl = "https://https://visionaidapp.streamlit.app/";
 
   @override
   Widget build(BuildContext context) {
