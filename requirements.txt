@@ -1,9 +1,7 @@
-flask
-flask-cors
-uvicorn
-python-multipart
-numpy
-pandas
+flask==3.0.3
+flask-cors==5.0.0
+uvicorn==0.30.6
+python-multipart==0.0.9
 streamlit==1.38.0
 opencv-python-headless==4.10.0.84
 numpy==1.26.4
@@ -14,3 +12,5 @@ ultralytics==8.3.0
 torch==2.4.1
 torchvision==0.19.1
 streamlit-webrtc==0.47.9
+numpy
+pandas
