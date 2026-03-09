@@ -12,4 +12,3 @@ ultralytics==8.3.0
 torch==2.4.1
 torchvision==0.19.1
 streamlit-webrtc==0.47.9
-pandas
