@@ -3,7 +3,6 @@ flask-cors
 uvicorn
 python-multipart
 numpy
-ultralytics
 pandas
 streamlit==1.38.0
 opencv-python-headless==4.10.0.84
